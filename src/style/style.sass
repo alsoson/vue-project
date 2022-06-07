@@ -1,0 +1,72 @@
+#app
+  width: 1024px
+  height: 768px
+  border: 1px solid black
+  margin: auto
+#top-image
+  width: 100%
+  height: 65px
+#center
+  width: 100%
+  height: calc(768px - 65px - 20px)
+#left
+  width: 215px
+  height: 100%
+  display: inline-block
+  position: relative
+#right
+  width: 770px
+  height: 100%
+  display: inline-block
+  position: relative
+#left-menu
+  width: 100%
+  height: calc(100% - 25px)
+  font-family: '標楷體'
+  font-size: 16px
+  color: #000
+  position: absolute
+  top: 0
+  h1
+    font-size: 24px
+    text-decoration: underline
+    text-align: center
+    color: #f0f
+  table
+    width: 100%
+    text-align: center
+    height: 35px
+    tr
+      background: url(@/assets/menu1.png) no-repeat center center
+      &:hover
+        background: url(@/assets/menu2.png) no-repeat center center
+#left-update
+  width: 100%
+  height: 25px
+  text-align: center
+  position: absolute
+  bottom: 0
+#right-marquee
+  width: 100%
+  height: 29px
+  position: absolute
+  top: 0
+  color: blue
+  font-family: '標楷體'
+  font-size: 24px
+#right-main
+  width: 100%
+  height: calc(100% - 29px)
+  position: absolute
+  bottom: 0
+  color: blue
+  font-family: '標楷體'
+  font-size: 24px
+  font-weight: bold
+  font-style: italic
+  text-align: center
+  background: url(@/assets/0101.jpg)
+#footer-text
+  // width: 1024px
+  text-align: center
+  font-family: "標楷體"
